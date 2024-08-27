@@ -1,0 +1,166 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Section */
+.header {
+    background: url('https://wallpaperaccess.com/full/656852.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.cta-buttons .btn-primary,
+.cta-buttons .btn-secondary {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+}
+
+.btn-primary {
+    background: #ff4040;
+    color: white;
+}
+
+.btn-secondary {
+    background: #f9f8f7;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a:hover {
+    color: #ff4040;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    background: linear-gradient(to right, #ff5f5f, #180cf6);
+    color: white;
+}
+
+.service-box {
+    width: 30%;
+    text-align: center;
+}
+
+/* About Us Section */
+.about {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Our Services Section */
+.our-services {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: white;
+}
+
+.our-services h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.service-item {
+    width: 30%;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+.service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    background-color:rgb(24, 23, 23) ;
+    color: white;
+  }
+  
+  footer .section__container {
+    display: grid;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  footer h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .social__icons {
+    display: flex;
+    color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social__icons i {
+    padding: 5px;
+    color: #f4f4f4;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  footer p {
+    font-style: italic;
+  }
